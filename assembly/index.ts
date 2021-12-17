@@ -1,4 +1,4 @@
-import { context, logging, Context } from 'near-sdk-as';
+import { context, logging, ContractPromiseBatch, u128 } from 'near-sdk-as';
 import { Book, allBooks, Contributor, allContributors, ONE_NEAR } from './models'
 
 const contractOwner = context.sender;
@@ -156,6 +156,7 @@ export function makeDonation(bookOwnerIndex: i32): bool {
    }
 
 // Lets the user make a donation to the project
-//export function donateToProject(): void {
-  //  const project = Context
-//}
+export function donateToProject(): void {
+    assert(context.attachedDeposit > ONE_NEAR, 'You need to deposit some NEAR.')
+    logging.log('Gracias por su contribucion')
+}
