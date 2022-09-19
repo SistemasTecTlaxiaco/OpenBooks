@@ -3,7 +3,7 @@
 OpenBooks es un smart contract que parte de la idea de que todo el conocimiento y la información debe ser libre para todos. Este proyecto permite a los usuarios publicar documentos, libros, etc. en un ambiente completamente descentralizado y así permitir a otros usuarios obtener los recursos facilmente sin tener que visitar cientos de páginas diferentes hasta conseguir el recurso que buscaban.
 Las funcionalidades principales del contrato son las siguientes:
 * Subir un libro (además, guarda el usuario de la persona que lo sube como "Contribuyente").
-* Obtener todos los libros.
+* Obtener todos los libros
 * Obtener un libro en específico.
 * Obtener lista de contribuyentes.
 * Eliminar la lista de libros.
