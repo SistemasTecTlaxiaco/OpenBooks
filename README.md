@@ -9,7 +9,7 @@ Las funcionalidades principales del contrato son las siguientes:
 * Eliminar la lista de libros.
 * Eliminar un libro en específico.
 * Vaciar la lista de contribuyentes.
-* Buscar un contribuyente por su usuario.
+* Buscar un contribuyente por su usuario en la dapp
 
 ## Cómo utilizar este contrato ❔
 ---
